@@ -7,10 +7,11 @@ Pixiv 이미지 검색, Hitomi.la 작품 정보 등의 서브컬쳐나 NSFW 기�
 - [x] Hitomi.la
 - [x] Rule34(Paheal)
 - [x] Rule34
+- [x] Laftel(Anime Info)
 - [ ] Nozomi.la
 - [ ] Manatoki(Manga Info)
 - [ ] Newtoki(Webtoon Info)
-- [ ] Ooani(Anime Info)
+
 
 # 법적 책임
 해당 봇을 사용함으로써 발생하는 모든 피해에 대해 개발자는 책임을 지지 않습니다.<br>
