@@ -43,7 +43,7 @@ class Hitomi(commands.Cog):
                           f"\n{error}```"
             return await send(self.bot, ctx, description)
 
-    @commands.command(name='히토미', aliases=['h'])
+    @commands.command(name='히토미', aliases=['h', 'hitomi'])
     async def hitomi(self, ctx, *, search=None):
         if search is None:
             raise NoInputValue

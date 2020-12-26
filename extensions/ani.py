@@ -48,7 +48,7 @@ class Ani(commands.Cog):
         embed.set_image(url=anime[2])
         return await ctx.send(ctx.author.mention, embed=embed)
 
-    @commands.command(name='애니', aliases=['a'])
+    @commands.command(name='애니', aliases=['a', 'anime', 'ani', '애니메이션'])
     async def anime(self, ctx, *, search=None):
         def replace_data(value):
             return value.lower().replace(' ', '').replace('♡', '').replace('-', '').replace('.', '') \

@@ -36,7 +36,7 @@ class Pixiv(commands.Cog):
                           f"\n{error}```"
             return await send(self.bot, ctx, description)
 
-    @commands.command(name='픽시브', aliases=['p'])
+    @commands.command(name='픽시브', aliases=['p', 'pixiv'])
     async def pixiv(self, ctx, *, search=None):
         async def get_data(link):
             await ctx.trigger_typing()
