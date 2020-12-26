@@ -23,5 +23,5 @@ $ pip3 install -r requirements.txt
 해당 봇을 사용함으로써 발생하는 모든 피해에 대해 개발자는 책임을 지지 않습니다.<br>
 해당 봇은 웹 크롤링을 통하여 저작물의 정보를 전달하기 때문에, 불법 공유 저작물 및 음란물을 소장하지 않습니다.
 
-#출처
+# 출처
 - [SauceNAO](https://github.com/ranthai/saucenaopy): 일부 수정 후 로컬 모듈로 사용 중
