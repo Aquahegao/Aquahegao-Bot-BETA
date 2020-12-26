@@ -2,7 +2,7 @@
 KOREANBOTS 주최 해커톤 참가 프로젝트입니다.<br>
 Pixiv 이미지 검색, Hitomi.la 작품 정보 등의 서브컬쳐나 NSFW 기능을 제공합니다.<br>
 
-# 지원 사이트(예정)
+# 지원 사이트
 - [x] Pixiv
 - [x] Hitomi.la
 - [x] Rule34(Paheal)
