@@ -47,7 +47,7 @@ class Rule34(commands.Cog):
         )
         return await ctx.send(ctx.author.mention, embed=embed)
 
-    @commands.command(name='룰34', aliases=['rule', '룰', 'r'])
+    @commands.command(name='룰34', aliases=['rule', '룰', 'r', 'rule34'])
     async def rule34(self, ctx, *, search=None):
         await ctx.trigger_typing()
         if search is None:
