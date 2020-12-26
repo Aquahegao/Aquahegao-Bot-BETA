@@ -43,7 +43,7 @@ class Nozomi(commands.Cog):
                           f"\n{error}```"
             return await send(self.bot, ctx, description)
 
-    @commands.command(name='노조미', aliases=['n'])
+    @commands.command(name='노조미', aliases=['n', 'nozomi'])
     async def nozomi(self, ctx, *, search=None):
         if search is None:
             raise NoInputValue
