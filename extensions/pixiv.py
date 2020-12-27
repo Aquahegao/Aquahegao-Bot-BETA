@@ -15,6 +15,10 @@ class NoInputValue(commands.CommandError):
 class NotValidURL(commands.CommandError):
     pass
 
+def token():
+    with open('../config.json') as json_file:
+        data = json.load(json_file)
+        return data['sauce_token']
 
 class Pixiv(commands.Cog):
     def __init__(self, bot):
@@ -65,7 +69,7 @@ class Pixiv(commands.Cog):
                 text=self.bot.user.name)
             await ctx.send(embed=embed)
 
-        sn = SauceNAO('85dc8273244534485a2b25771808e303ef433a97', dbmask=8191, numres=12)
+        sn = SauceNAO(token(), dbmask=8191, numres=12)
 
         if search:
             if 'http' not in search:
