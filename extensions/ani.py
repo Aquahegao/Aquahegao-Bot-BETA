@@ -38,8 +38,8 @@ class Ani(commands.Cog):
         censored = ''
         if anime[3] == '1':
             censored = '[성인] '
-
-        embed = discord.Embed(title=censored + anime[1], description=status, color=0x3361B6)
+        laftel_url = 'https://laftel.net/item/'+anime[0]
+        embed = discord.Embed(title=censored + anime[1], description=status, color=0x3361B6, url=laftel_url)
         if anime[6]:
             embed.add_field(name="방영일", value=anime[6][:10], inline=False)
         embed.add_field(name="장르", value='```\n'+'\n'.join(literal_eval(anime[4]))+'```')
