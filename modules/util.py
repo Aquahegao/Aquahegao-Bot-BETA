@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 def config():
     with open('config.json', 'r', encoding='utf-8-sig') as f:
         cfg = json.load(f)
-        f.close()
     return cfg
 
 
